@@ -1,0 +1,27 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=Conky Manager
+Name[es_AR]=Administrador de Conky
+Name[fr_FR]=Gestionnaire pour Conky
+Name[ja_JP]=Conky マネージャー
+Name[pl_PL]=Conky Menadżer
+Name[pt_BR]=Gerenciador do Conky
+Name[pt_PT]=Gestor Conky
+Name[sv_SE]=Conky-hanteraren
+GenericName=Conky Manager
+Comment=Launch, stop or edit Sparky Conky
+Comment[es_AR]=Lanza, detiene o edita Sparky Conky
+Comment[fr_FR]=Lance, arrête ou édite Sparky Conky
+Comment[it_IT]=Lancia, ferma o modifica Sparky Conky
+Comment[ja_JP]=Sparky Conky の起動・終了・編集
+Comment[pl_PL]=Uruchom, zatrzymaj lub edytuj Sparky Conky 
+Comment[pt_BR]=Inicializar, para ou editar o Conky do Sparky
+Comment[pt_PT]=Iniciar, parar ou editar Sparky Conky
+Comment[sv_SE]=Starta, stoppa eller redigera Sparky Conky
+Exec=/usr/bin/sparky-conky
+Icon=conky
+Terminal=false
+MultipleArgs=false
+Type=Application
+Categories=Applications;Utility;

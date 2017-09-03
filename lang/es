@@ -1,0 +1,27 @@
+# Archivo de localización en español para Sparky Conky.
+# Copyright 2015 Fernando "seacat" Velo <seacat.linux@gmail.com> 2015/12/23
+# Bajo la licencia GNU GPL v2
+# Ultima actualización 2015/12/23
+
+LOCAL1="Nombre"
+LOCAL2="Descripción"
+LOCAL3="Salir"
+LOCAL4="Administrador de Sparky Conky"
+LOCAL5="Configuración del administrador de Sparky Conky. \n\Por favor, elija una opción:"
+LOCAL6="Iniciar Conky"
+LOCAL7="Detener Conky"
+LOCAL8="Editar el archivo de configuración de Sparky Conky"
+LOCAL9="Cambiar el color de Sparky Conky"
+LOCAL10="Cambia el color de Sparky Conky.\n\nElegir un nuevo color predeterminado:"
+LOCAL11="Negro"
+LOCAL12="Azul"
+LOCAL13="Gris"
+LOCAL14="Verde"
+LOCAL15="Rojo"
+LOCAL16="Amarillo"
+LOCAL17="Blanco"
+LOCAL18="Volver al menú principal"
+
+### .desktop file to be translated too
+# Name[es_AR]=Administrador de Conky
+# Comment[es_AR]=Lanza, detiene o edita Sparky Conky

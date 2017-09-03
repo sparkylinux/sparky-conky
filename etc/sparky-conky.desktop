@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Icon=conky
+Name=Sparky Conky
+Categories=Applications;Utility;Core;GTK;
+Exec=conky --config=/opt/conky/conky-sparky.conf
+StartupNotify=true
+Terminal=false

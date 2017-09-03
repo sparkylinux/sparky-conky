@@ -1,0 +1,147 @@
+#!/bin/bash
+#
+#  Created by Paweł "pavroo" Pijanowski 2013/10/27
+#  Copyright 2013, 2014, 2015, 2016, 2017 under the GNU GPL2 License
+#
+#  Last update 2017/01/12
+#  This script requires yad to run
+
+# get default's locale file
+DEFLOCDIR="/usr/share/sparky/sparky-conky"
+if [ "`cat /etc/default/locale | grep es_AR`" != "" ]; then
+. $DEFLOCDIR/es
+elif [ "`cat /etc/default/locale | grep fr_FR`" != "" ]; then
+. $DEFLOCDIR/fr
+elif [ "`cat /etc/default/locale | grep it_IT`" != "" ]; then
+. $DEFLOCDIR/it
+elif [ "`cat /etc/default/locale | grep ja_JP`" != "" ]; then
+. $DEFLOCDIR/ja
+elif [ "`cat /etc/default/locale | grep pl_PL`" != "" ]; then
+. $DEFLOCDIR/pl
+elif [ "`cat /etc/default/locale | grep pt_BR`" != "" ]; then
+. $DEFLOCDIR/pt_BR
+elif [ "`cat /etc/default/locale | grep pt_PT`" != "" ]; then
+. $DEFLOCDIR/pt_PT
+elif [ "`cat /etc/default/locale | grep sv_SE`" != "" ]; then
+. $DEFLOCDIR/se
+else
+. $DEFLOCDIR/en
+fi
+
+#testroot="`whoami`"
+
+#if [ "$testroot" != "root" ]; then
+#	echo "Must be root. Exiting..."
+#	exit 1
+#fi
+
+DIALOGMENU="yad --window-icon=conky --width=450 --height=300 --center"
+TITLE="--always-print-result --dialog-sep --image=conky --title="
+TEXT="--text="
+MENU="--list --column=$LOCAL1 --column=$LOCAL2"
+OKEXIT=" --button=Ok:0 --button=$LOCAL3:1"
+TITLETEXT="$LOCAL4"
+
+if [ -f /opt/sparky/sparky-editor ]; then
+. /opt/sparky/sparky-editor
+else
+	SPARKYEDITOR="gnome-text-editor"
+fi
+
+mainmenu () {
+
+CHOICES=`$DIALOGMENU $TITLE"$TITLETEXT" $OKEXIT $MENU $TEXT"$LOCAL5" \
+Start "$LOCAL6" \
+Stop "$LOCAL7" \
+Edit "$LOCAL8" \
+Color "$LOCAL9"`
+
+if [ "$?" = "0" ]; then
+	CHOICE=`echo $CHOICES | cut -d "|" -f 1`
+else
+	exit 0
+fi
+
+if [ "$CHOICE" = "Start" ]; then
+	conky --config=/opt/conky/conky-sparky.conf &
+	mainmenu
+
+elif [ "$CHOICE" = "Stop" ]; then
+	killall -9 conky &
+	mainmenu
+
+elif [ "$CHOICE" = "Edit" ]; then
+	$SPARKYEDITOR /opt/conky/conky-sparky.conf
+	mainmenu
+
+elif [ "$CHOICE" = "Color" ]; then
+	colormenu
+
+else
+	exit 0
+fi
+}
+
+colormenu () {
+
+CHOICES=`$DIALOGMENU --width=450 --height=400 $TITLE"$TITLETEXT" $OKEXIT $MENU $TEXT"$LOCAL10" \
+Black "$LOCAL11" \
+Blue "$LOCAL12" \
+Gray "$LOCAL13" \
+Green "$LOCAL14" \
+Red "$LOCAL15" \
+Yellow "$LOCAL16" \
+White "$LOCAL17" \
+Back "$LOCAL18"`
+
+if [ "$?" = "0" ]; then
+	CHOICE=`echo $CHOICES | cut -d "|" -f 1`
+else
+	exit 0
+fi
+
+if [ "$CHOICE" = "Blue" ]; then
+	sed -i -e 's/color3 [0-9a-zA-Z]* #Sparky/color3 8db7d7 #Sparky/g' /opt/conky/conky-sparky.conf
+	sed -i -e 's/color [0-9a-zA-Z]*/color3 8db7d7/g' /opt/conky/week.sh
+	colormenu
+
+elif [ "$CHOICE" = "Black" ]; then
+	sed -i -e 's/color3 [0-9a-zA-Z]* #Sparky/color3 000000 #Sparky/g' /opt/conky/conky-sparky.conf
+	sed -i -e 's/color [0-9a-zA-Z]*/color3 000000/g' /opt/conky/week.sh
+	colormenu
+
+elif [ "$CHOICE" = "Gray" ]; then
+	sed -i -e 's/color3 [0-9a-zA-Z]* #Sparky/color3 919191 #Sparky/g' /opt/conky/conky-sparky.conf
+	sed -i -e 's/color [0-9a-zA-Z]*/color3 919191/g' /opt/conky/week.sh
+	colormenu
+
+elif [ "$CHOICE" = "Green" ]; then
+	sed -i -e 's/color3 [0-9a-zA-Z]* #Sparky/color3 4b8513 #Sparky/g' /opt/conky/conky-sparky.conf
+	sed -i -e 's/color [0-9a-zA-Z]*/color3 4b8513/g' /opt/conky/week.sh
+	colormenu
+
+elif [ "$CHOICE" = "Red" ]; then
+	sed -i -e 's/color3 [0-9a-zA-Z]* #Sparky/color3 c80202 #Sparky/g' /opt/conky/conky-sparky.conf
+	sed -i -e 's/color [0-9a-zA-Z]*/color3 c80202/g' /opt/conky/week.sh
+	colormenu
+
+elif [ "$CHOICE" = "Yellow" ]; then
+	sed -i -e 's/color3 [0-9a-zA-Z]* #Sparky/color3 e5d412 #Sparky/g' /opt/conky/conky-sparky.conf
+	sed -i -e 's/color [0-9a-zA-Z]*/color3 e5d412/g' /opt/conky/week.sh
+	colormenu
+
+elif [ "$CHOICE" = "White" ]; then
+	sed -i -e 's/color3 [0-9a-zA-Z]* #Sparky/color3 ffffff #Sparky/g' /opt/conky/conky-sparky.conf
+	sed -i -e 's/color [0-9a-zA-Z]*/color3 ffffff/g' /opt/conky/week.sh
+	colormenu
+
+elif [ "$CHOICE" = "Back" ]; then
+	mainmenu
+
+else
+	exit 0
+fi
+
+}
+
+mainmenu
