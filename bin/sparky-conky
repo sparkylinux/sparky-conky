@@ -1,10 +1,9 @@
 #!/bin/bash
 #
-#  Created by Paweł "pavroo" Pijanowski 2013/10/27
-#  Copyright 2013, 2014, 2015, 2016, 2017 under the GNU GPL2 License
-#
-#  Last update 2017/01/12
-#  This script requires yad to run
+# Created by Paweł "pavroo" Pijanowski 2013/10/27
+# Copyright 2013-2018 under the GNU GPL2 License
+# This script requires yad to run
+# Last update 2018/03/29
 
 # get default's locale file
 DEFLOCDIR="/usr/share/sparky/sparky-conky"
@@ -28,13 +27,6 @@ else
 . $DEFLOCDIR/en
 fi
 
-#testroot="`whoami`"
-
-#if [ "$testroot" != "root" ]; then
-#	echo "Must be root. Exiting..."
-#	exit 1
-#fi
-
 DIALOGMENU="yad --window-icon=conky --width=450 --height=300 --center"
 TITLE="--always-print-result --dialog-sep --image=conky --title="
 TEXT="--text="
@@ -42,8 +34,8 @@ MENU="--list --column=$LOCAL1 --column=$LOCAL2"
 OKEXIT=" --button=Ok:0 --button=$LOCAL3:1"
 TITLETEXT="$LOCAL4"
 
-if [ -f /opt/sparky/sparky-editor ]; then
-. /opt/sparky/sparky-editor
+if [ -f /usr/bin/sparky-editor ]; then
+	SPARKYEDITOR="sparky-editor"
 else
 	SPARKYEDITOR="gnome-text-editor"
 fi
