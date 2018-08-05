@@ -2,8 +2,7 @@
 # Copyright 2015 PaweÅ‚ "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/27
 # Traduzido por Claudio Cesar de Sá "ccs1664" <ccs1664@gmail.com> 28/01/2016
 # Sob a Licença GNU GPL v2
-# Última atualização 28/01/2016
-
+# Last update 2018/08/05 by pavroo
 LOCAL1="Nome"
 LOCAL2="Descrição"
 LOCAL3="Sair"
@@ -22,7 +21,6 @@ LOCAL15="Vermelha"
 LOCAL16="Amarela"
 LOCAL17="Branca"
 LOCAL18="Volte ao  menu principal"
-
 ### .desktop file to be translated too
 # Name[pt_BR]=Gerenciador do Conky
 # Comment[pt_BR]=Inicializar, para ou editar o Conky do Sparky

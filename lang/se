@@ -1,8 +1,7 @@
 # Svensk språkfil för Sparky Compton.
 # Copyright 2015 Johnny Rosenberg <johnny.a.rosenberg@gmail.com> 2015-11-14
 # Under GNU GPL v2
-# Senast uppdaterad 2015-11-14
-
+# Last update 2018/08/05 by pavroo
 LOCAL1="Namn"
 LOCAL2="Beskrivning"
 LOCAL3="Avsluta"
@@ -21,7 +20,6 @@ LOCAL15="Röd"
 LOCAL16="Gul"
 LOCAL17="Vit"
 LOCAL18="Tillbaka till huvudmenyn"
-
 ### .desktop file to be translated too
 # Name[sv_SE]=Conky-hanteraren
 # Comment[sv_SE]=Starta, stoppa eller redigera Sparky Conky

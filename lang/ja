@@ -1,9 +1,8 @@
 # Japanese localization file for Sparky Conky.
 # Copyright 2015 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/27
 # Under the GNU GPL v2
-# Last update 2015/12/23
+# Last update 2018/08/05 by pavroo
 # Translated to Japanese by BALLOON a.k.a. Fu-sen.
-
 LOCAL1="名前"
 LOCAL2="説明"
 LOCAL3="終了"
@@ -22,7 +21,6 @@ LOCAL15="赤"
 LOCAL16="黄色"
 LOCAL17="白"
 LOCAL18="メインメニューへ戻る"
-
 ### .desktop file to be translated too
 # Name[ja_JP]=Conky マネージャー
-# Comment[ja_JP]=Sparky Conky の起動・終了・編集 
+# Comment[ja_JP]=Sparky Conky の起動・終了・編集

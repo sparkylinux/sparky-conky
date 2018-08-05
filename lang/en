@@ -1,8 +1,7 @@
 # English localization file for Sparky Conky.
 # Copyright 2015 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/27
 # Under the GNU GPL v2
-# Last update 2015/10/27
-
+# Last update 2018/08/05 by pavroo
 LOCAL1="Name"
 LOCAL2="Description"
 LOCAL3="Exit"
@@ -21,7 +20,6 @@ LOCAL15="Red"
 LOCAL16="Yellow"
 LOCAL17="White"
 LOCAL18="Back to the main menu"
-
 ### .desktop file to be translated too
 # Name[en_US]=Conky Manager
 # Comment[en_US]=Launch, stop or edit Sparky Conky

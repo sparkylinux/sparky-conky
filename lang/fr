@@ -1,8 +1,7 @@
 ﻿# Fichier de localisation française de Sparky Conky.
 # Copyright 2016 hiver <hiver@club-internet.fr> 2016/05/12
 # Sous licence GNU GPL v2
-# Dernière mise à jour 2016/06/05
-
+# Last update 2018/08/05 by pavroo
 LOCAL1="Nom"
 LOCAL2="Description"
 LOCAL3="Quitter"
@@ -21,7 +20,6 @@ LOCAL15="Rouge"
 LOCAL16="Jaune"
 LOCAL17="Blanc"
 LOCAL18="Retour au menu principal"
-
 ### .desktop file to be translated too
 # Name[fr_FR]=Gestionnaire pour Conky 
 # Comment[fr_FR]=Lance, arrête ou édite Sparky Conky

@@ -1,8 +1,7 @@
 # Archivo de localización en español para Sparky Conky.
 # Copyright 2015 Fernando "seacat" Velo <seacat.linux@gmail.com> 2015/12/23
 # Bajo la licencia GNU GPL v2
-# Ultima actualización 2015/12/23
-
+# Last update 2018/08/05 by pavroo
 LOCAL1="Nombre"
 LOCAL2="Descripción"
 LOCAL3="Salir"
@@ -21,7 +20,6 @@ LOCAL15="Rojo"
 LOCAL16="Amarillo"
 LOCAL17="Blanco"
 LOCAL18="Volver al menú principal"
-
 ### .desktop file to be translated too
 # Name[es_AR]=Administrador de Conky
 # Comment[es_AR]=Lanza, detiene o edita Sparky Conky

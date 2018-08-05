@@ -1,8 +1,7 @@
 # Arquivo de localização para Portugues de Portugal do Sparky Conky.
 # Copyright 2016 Joel Chaves "Flacc" <joel_chaves@icloud.com> Tuesday 26 January 23:48:00 WET 2016
 # Sob a Licença GNU GPL v2
-# Última atualização Tuesday 26 January 23:48:00 WET 2016
-
+# Last update 2018/08/05 by pavroo
 LOCAL1="Nome"
 LOCAL2="Descrição"
 LOCAL3="Sair"
@@ -21,7 +20,6 @@ LOCAL15="Vermeilho"
 LOCAL16="Amarelo"
 LOCAL17="Branco"
 LOCAL18="Voltar ao menu principal"
-
 ### Arquivo a ser traduzido também .desktop
 # Name[pt_PT]=Gestor Conky
 # Comment[pt_PT]=Iniciar, parar ou editar Sparky Conky
