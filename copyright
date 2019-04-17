@@ -3,7 +3,7 @@ Upstream Author(s):
     Paweł "pavroo" Pijanowski <pavroo@onet.eu>
 
 Files: *
-    Copyright (C) 2013-2018 Paweł Pijanowski
+    Copyright (C) 201-2019 Paweł Pijanowski
     License: GNU GPL v3
 
 File: es
@@ -34,12 +34,16 @@ File: pt_PT
     Copyright (C) 2016 Joel Chaves "Flacc" <joel_chaves@icloud.com>
     License: GPL-2
 
+File: ru
+    Copyright (C) 2019 ChourS
+    License: GPL-2
+
 File: se
     Copyright (C) 2015 Johnny Rosenberg <johnny.a.rosenberg@gmail.com>
     License: GPL-2
 
 File: conky-sparky.conf
-    Copyright (C) 2013-2018 Paweł Pijanowski
+    Copyright (C) 2013-2019 Paweł Pijanowski
     Copyright (c) 2005-2010 Brenden Matthews, Philip Kovacs, et. al.
     Copyright (c) 2004, Hannu Saransaari and Lauri Hakkarainen
     All rights reserved. License: GNU GPL v3

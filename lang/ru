@@ -1,0 +1,25 @@
+# Файл русской локализации для Sparky Conky.
+# Copyright 2015 PaweЕ‚ "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/27
+# Под лицензией GNU GPL v2
+# Last update 2018/08/05 by pavroo
+LOCAL1="Имя"
+LOCAL2="Описание"
+LOCAL3="Выход"
+LOCAL4="Sparky Conky Manager"
+LOCAL5="Настройки Sparky Conky Manager. \n\Пожалуйста, выберите опцию:"
+LOCAL6="Запуск Conky"
+LOCAL7="Остановка Conky"
+LOCAL8="Изменить файл настроек Sparky Conky"
+LOCAL9="Изменить цвет Sparky Conky"
+LOCAL10="Изменить цвет Sparky Conky.\n\nВыберите новый цвет по умолчанию:"
+LOCAL11="Чёрный"
+LOCAL12="Голубой"
+LOCAL13="Серый "
+LOCAL14="Зелёный"
+LOCAL15="Красный"
+LOCAL16="Жёлтый"
+LOCAL17="Белый"
+LOCAL18="Вернуться в главное меню"
+### .desktop файл был переведён - ChourS
+# Name[en_US]=Conky Manager
+# Comment[ru_RU]=Запустить, остановить или отредактировать Sparky Conky
