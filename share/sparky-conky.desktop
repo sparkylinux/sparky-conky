@@ -2,6 +2,7 @@
 Version=1.0
 Encoding=UTF-8
 Name=Conky Manager
+Name[el]=Διαχειριστής του Sparky Conky
 Name[es]=Administrador de Conky
 Name[fr]=Gestionnaire pour Conky
 Name[id]=Manajer Conky
@@ -12,6 +13,7 @@ Name[pt_PT]=Gestor Conky
 Name[sv]=Conky-hanteraren
 GenericName=Conky Manager
 Comment=Launch, stop or edit Sparky Conky
+Comment[el]=Εκκίνηση, τερματισμός και επεξεργασία του Sparky Conky
 Comment[es]=Lanza, detiene o edita Sparky Conky
 Comment[fr]=Lance, arrête ou édite Sparky Conky
 Comment[id]=Luncurkan, hentikan atau edit Conky Sparky
