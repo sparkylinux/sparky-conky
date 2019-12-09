@@ -13,6 +13,7 @@ Name[pt_PT]=Gestor Conky
 Name[sv]=Conky-hanteraren
 GenericName=Conky Manager
 Comment=Launch, stop or edit Sparky Conky
+Comment[de]=Sparky Conky starten, beenden oder bearbeiten
 Comment[el]=Εκκίνηση, τερματισμός και επεξεργασία του Sparky Conky
 Comment[es]=Lanza, detiene o edita Sparky Conky
 Comment[fr]=Lance, arrête ou édite Sparky Conky

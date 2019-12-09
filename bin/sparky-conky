@@ -3,11 +3,13 @@
 # Created by Paweł "pavroo" Pijanowski 2013/10/27
 # Copyright 2013-2019 under the GNU GPL2 License
 # This script requires yad to run
-# Last update 2019/11/25
+# Last update 2019/12/09
 
 # get default's locale file
 DEFLOCDIR="/usr/share/sparky/sparky-conky"
-if [ "`cat /etc/default/locale | grep el`" != "" ]; then
+if [ "`cat /etc/default/locale | grep de`" != "" ]; then
+. $DEFLOCDIR/de
+elif [ "`cat /etc/default/locale | grep el`" != "" ]; then
 . $DEFLOCDIR/el
 elif [ "`cat /etc/default/locale | grep es`" != "" ]; then
 . $DEFLOCDIR/es
