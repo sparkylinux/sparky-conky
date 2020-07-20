@@ -19,7 +19,7 @@ LOCAL14="Verde"
 LOCAL15="Rosso"
 LOCAL16="Giallo"
 LOCAL17="Bianco"
-LOCAL18="Torna al menà principale"
+LOCAL18="Torna al menu principale"
 ### .desktop file to be translated too
 # Name[it_IT]=Conky Manager
 # Comment[it_IT]=Lancia, ferma o modifica Sparky Conky
