@@ -1,0 +1,25 @@
+# Greek localization file for Sparky Conky.
+# Copyright 2015 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/27
+# Under the GNU GPL v2
+# Last update 2019/11/06 by jidan
+LOCAL1="Όνομα"
+LOCAL2="Περιγραφή"
+LOCAL3="Έξοδος"
+LOCAL4="Διαχειριστής του Sparky Conky"
+LOCAL5="Ρυθμίσεις διαχείρισης του Sparky Conky. \n\Διαλέξτε μια επιλογή:"
+LOCAL6="Εκκίνηση του Conky"
+LOCAL7="Τερματισμός του Conky"
+LOCAL8="Επεξεργασία αρχείου ρυθμίσεων του Sparky Conky"
+LOCAL9="Αλλαγή χρωμάτων του Sparky Conky"
+LOCAL10="Αλλαγή χρωμάτων του Sparky Conky.\n\nΕπιλέξτε νέο χρώμα σαν προεπιλεγμένο:"
+LOCAL11="Μαύρο"
+LOCAL12="Μπλε"
+LOCAL13="Γκρι"
+LOCAL14="Πράσινο"
+LOCAL15="Κόκκινο"
+LOCAL16="Κίτρινο"
+LOCAL17="Λευκό"
+LOCAL18="Επιστροφή στο αρχικό μενού"
+### .desktop file to be translated too
+# Name[el_GR]=Διαχειριστής του Sparky Conky
+# Comment[el_GR]=Εκκίνηση, τερματισμός και επεξεργασία του Sparky Conky

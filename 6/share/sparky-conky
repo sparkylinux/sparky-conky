@@ -1,0 +1,1 @@
+?package(sparky-conky):needs="X11" section="Applications/Utility"        title="Conky Manager" command="/usr/bin/sparky-conky" icon="conky"

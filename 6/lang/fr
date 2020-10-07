@@ -1,0 +1,25 @@
+﻿# Fichier de localisation française de Sparky Conky.
+# Copyright 2016 hiver <hiver@club-internet.fr> 2016/05/12
+# Sous licence GNU GPL v2
+# Last update 2018/08/05 by pavroo
+LOCAL1="Nom"
+LOCAL2="Description"
+LOCAL3="Quitter"
+LOCAL4="Gestionnaire de Sparky Conky"
+LOCAL5="Configuration du gestionnaire Sparky Conky. \n\S'il vous plaît choisissez une option:"
+LOCAL6="Démarrer Conky"
+LOCAL7="Arrêter Conky"
+LOCAL8="Éditer le fichier de configuration de Sparky Conky "
+LOCAL9="Changer la couleur de Sparky Conky"
+LOCAL10="Changer la couleur de Sparky Conky.\n\nChoisissez une nouvelle couleur par défaut:"
+LOCAL11="Noir"
+LOCAL12="Bleu"
+LOCAL13="Gris"
+LOCAL14="Vert"
+LOCAL15="Rouge"
+LOCAL16="Jaune"
+LOCAL17="Blanc"
+LOCAL18="Retour au menu principal"
+### .desktop file to be translated too
+# Name[fr_FR]=Gestionnaire pour Conky 
+# Comment[fr_FR]=Lance, arrête ou édite Sparky Conky
