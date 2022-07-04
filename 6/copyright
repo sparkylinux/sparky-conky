@@ -3,8 +3,8 @@ Upstream Author(s):
     Paweł "pavroo" Pijanowski <pavroo@onet.eu>
 
 Files: *
-    Copyright (C) 201-2019 Paweł Pijanowski
-    License: GNU GPL v3
+    Copyright (C) 2013-2022 Paweł Pijanowski
+    License: GNU GPL-3
 
 File: de
     Copyright 2019 michael <thenumbersguy@o2online.de>
@@ -14,45 +14,50 @@ File: el
     Copyright 2019 jidan
     License: GNU GPL-3
 
-File: es
+File: es_AR
     Copyright (C) 2016 Fernando "seacat" Velo <seacat.linux@gmail.com>
-    License: GPL-2
+    License: GPL-3
+
+File: es_ES
+    Copyright 2022 depaz
+    License: GPL-3
 
 File: fr
     Copyright (C) 2016 hiver <hiver@club-internet.fr>
-    License: GPL-2
+    License: GPL-3
 
 File: hu
     Copyright 2019 Nemomen
-    License: GNU GPL-3
+    License: GPL-3
 
 File: id_ID
     Copyright (C) 2018 les kompie
-    License: GPL-2
+    License: GPL-3
 
 File: it
     Copyright (C) 2015 Carlo‚ "malato" Troiani <abbassolafrangetta@gmail.com>
-    License: GPL-2
+    Copyright 2022 Yodel Sinatra <mastodon.uno/@YodelSinatra>
+    License: GPL-3
 
 File: ja
     Copyright (C) 2016 BALLOON a.k.a. Fu-sen
-    License: GPL-2
+    License: GPL-3
 
 File: pt_BR
     Copyright (C) 2016 Claudio Cesar de Sá "ccs1664" <ccs1664@gmail.com>
-    License: GPL-2
+    License: GPL-3
 
 File: pt_PT
     Copyright (C) 2016 Joel Chaves "Flacc" <joel_chaves@icloud.com>
-    License: GPL-2
+    License: GPL-3
 
 File: ru
     Copyright (C) 2019 ChourS
-    License: GPL-2
+    License: GPL-3
 
 File: se
     Copyright (C) 2015 Johnny Rosenberg <johnny.a.rosenberg@gmail.com>
-    License: GPL-2
+    License: GPL-3
 
 File: conky-sparky.conf
     Copyright (C) 2013-2019 Paweł Pijanowski
