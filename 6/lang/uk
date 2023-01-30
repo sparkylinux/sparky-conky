@@ -1,0 +1,27 @@
+# Файл української локалізації Sparky Conky.
+# Ukrainian localization made by XalisRatt 2023/01/19 (I almost never use email, so contact me on matrix instead
+# <@xalisqull:arcticfoxes.net> or discord <XalisRatt#2308>
+# Copyright 2015 Pawel‚ "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/27
+# Під ліцензією GNU GPL v2
+# Last update 2018/08/05 by pavroo
+LOCAL1="Назва"
+LOCAL2="Опис"
+LOCAL3="Вихід"
+LOCAL4="Sparky Conky Manager"
+LOCAL5="Параметри Sparky Conky Manager. \n\Будь ласка, оберіть опцію:"
+LOCAL6="Запуск Conky"
+LOCAL7="Зупинка Conky"
+LOCAL8="Змінити файл налаштувань Sparky Conky"
+LOCAL9="Змінити колір Sparky Conky"
+LOCAL10="Змінити колір Sparky Conky.\n\nВиберіть новий колір за замовчуванням:"
+LOCAL11="Чорний"
+LOCAL12="Блакитний"
+LOCAL13="Сірий"
+LOCAL14="Зелений"
+LOCAL15="Червоний"
+LOCAL16="Жовтий"
+LOCAL17="Білий"
+LOCAL18="Повернутися до головного меню"
+### .desktop file to be translated too
+# Name[uk_UA]=Менеджер Conky
+# Comment[uk_UA]=Запустити, зупинити або відредагувати Sparky Conky
