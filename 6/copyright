@@ -69,6 +69,23 @@ File: conky-sparky.conf
     Copyright (c) 2004, Hannu Saransaari and Lauri Hakkarainen
     All rights reserved. License: GNU GPL v3
 
+File: gotham.conf
+   Author: psyjunta
+   Source: https://psyjunta.deviantart.com
+   License: GNU GPL 2+
+   
+File: dev.conf
+   Source: https://github.com/brndnmtthws/conky
+   License: GNU GPL 2+
+
+File: yuvan.conf
+    Source: https://github.com/YuvanMichael/conky
+    Author: Yuvan Michael Vivenezi
+
+File: nord.conf
+    Source: https://www.pling.com/p/1607304
+    License: GNU GPL 3
+
 		   GNU LESSER GENERAL PUBLIC LICENSE
                        Version 3, 29 June 2007
 

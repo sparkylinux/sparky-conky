@@ -3,7 +3,7 @@
 # Created by Paweł "pavroo" Pijanowski 2013/10/27
 # Copyright 2013-2023 under the GNU GPL2 License
 # This script requires yad to run
-# Last update 2023/01/30
+# Last update 2023/05/24
 
 # get default's locale file
 DEFLOCDIR="/usr/share/sparky/sparky-conky"
@@ -43,7 +43,7 @@ else
 . $DEFLOCDIR/en
 fi
 
-DIALOGMENU="yad --window-icon=conky --width=450 --height=300 --center"
+DIALOGMENU="yad --window-icon=conky --width=500 --height=380 --center"
 TITLE="--always-print-result --dialog-sep --image=conky --title="
 TEXT="--text="
 MENU="--list --column=$LOCAL1 --column=$LOCAL2"
@@ -59,7 +59,11 @@ fi
 mainmenu () {
 
 CHOICES=`$DIALOGMENU $TITLE"$TITLETEXT" $OKEXIT $MENU $TEXT"$LOCAL5" \
-Start "$LOCAL6" \
+Sparky "$LOCAL6 Sparky" \
+Dev "$LOCAL6 Dev" \
+Gotham "$LOCAL6 Gotham" \
+Yuvan "$LOCAL6 Yuvan" \
+Nord "$LOCAL6 Nord" \
 Stop "$LOCAL7" \
 Edit "$LOCAL8"`
 
@@ -69,8 +73,24 @@ else
 	exit 0
 fi
 
-if [ "$CHOICE" = "Start" ]; then
+if [ "$CHOICE" = "Sparky" ]; then
 	conky --config=/opt/conky/conky-sparky.conf &
+	mainmenu
+
+elif [ "$CHOICE" = "Dev" ]; then
+	conky --config=/opt/conky/dev/dev.conf &
+	mainmenu
+
+elif [ "$CHOICE" = "Gotham" ]; then
+	conky --config=/opt/conky/gotham/gotham.conf &
+	mainmenu
+
+elif [ "$CHOICE" = "Yuvan" ]; then
+	conky --config=/opt/conky/yuvan/yuvan.conf &
+	mainmenu
+
+elif [ "$CHOICE" = "Nord" ]; then
+	conky --config=/opt/conky/nord/nord.conf &
 	mainmenu
 
 elif [ "$CHOICE" = "Stop" ]; then

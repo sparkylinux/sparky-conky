@@ -17,6 +17,11 @@
 if [ "$1" = "uninstall" ]; then
 	rm -f /etc/xdg/autostart/sparky-conky.desktop
 	rm -f /opt/conky/conky-sparky.conf
+	rm -rf /opt/conky/dev/dev.conf
+	rm -rf /opt/conky/gotham/gotham.conf
+	rm -rf /opt/conky/nord/nord.conf
+	rm -rf /opt/conky/nord/clock01_rings.lua
+	rm -rf /opt/conky/yuvan/yuvan.conf
 	rm -f /opt/conky/week.sh
 	rm -f /usr/bin/sparky-conky
 	rm -f /usr/lib/sparkycenter/look/sparky-conky.desktop
