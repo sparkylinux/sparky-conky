@@ -1,0 +1,25 @@
+# Arquivo de localização para Portugues de Portugal do Sparky Conky.
+# Copyright 2016 Joel Chaves "Flacc" <joel_chaves@icloud.com> Tuesday 26 January 23:48:00 WET 2016
+# Sob a Licença GNU GPL v2
+# Last update 2018/08/05 by pavroo
+LOCAL1="Nome"
+LOCAL2="Descrição"
+LOCAL3="Sair"
+LOCAL4="Gestor Sparky Conky"
+LOCAL5="Definições do Gestor Sparky Conky. \n\Por favor selecione uma opção:"
+LOCAL6="Iniciar Conky"
+LOCAL7="Parar Conky"
+LOCAL8="Editar ficheiro de configuração Sparky Conky"
+LOCAL9="Alterar a cor Sparky Conky"
+LOCAL10="Alterar a cor do Conky Sparky\n\nEscolha uma nova, cor padrão:"
+LOCAL11="Preto"
+LOCAL12="Azul"
+LOCAL13="Cinzento"
+LOCAL14="Verde"
+LOCAL15="Vermeilho"
+LOCAL16="Amarelo"
+LOCAL17="Branco"
+LOCAL18="Voltar ao menu principal"
+### Arquivo a ser traduzido também .desktop
+# Name[pt_PT]=Gestor Conky
+# Comment[pt_PT]=Iniciar, parar ou editar Sparky Conky

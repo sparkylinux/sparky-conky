@@ -1,0 +1,25 @@
+# Hungarian localization file for Sparky Conky. (Translated by Nemomen)
+# Copyright 2015 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/27
+# Under the GNU GPL v2
+# Last update 2018/08/05 by pavroo
+LOCAL1="Név"
+LOCAL2="Leírás"
+LOCAL3="Kilépés"
+LOCAL4="Sparky Conky Manager"
+LOCAL5="Sparky Conky manager beállításai. \n\Kérjük, válasszon opciót!:"
+LOCAL6="Indítsa a Conky-t!"
+LOCAL7="Állítsa le a Conky-t!"
+LOCAL8="Szerkessze a Sparky Conky konfigurációs fájlt!"
+LOCAL9="Cserélje a Sparky Conky színét!"
+LOCAL10="Cserélje a Sparky Conky színét!\n\nVálasszon egy új, alapértelmezett színt!:"
+LOCAL11="Fekete"
+LOCAL12="Kék"
+LOCAL13="Szürke"
+LOCAL14="Zöld"
+LOCAL15="Vörös/piros"
+LOCAL16="Sárga"
+LOCAL17="Fehér"
+LOCAL18="Vissza a főmenübe"
+### .desktop file to be translated too
+# Name[en_US]=Conky Manager
+# Comment[en_US]=Launch, stop or edit Sparky Conky

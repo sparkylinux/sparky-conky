@@ -1,0 +1,25 @@
+# Svensk språkfil för Sparky Compton.
+# Copyright 2015 Johnny Rosenberg <johnny.a.rosenberg@gmail.com> 2015-11-14
+# Under GNU GPL v2
+# Last update 2018/08/05 by pavroo
+LOCAL1="Namn"
+LOCAL2="Beskrivning"
+LOCAL3="Avsluta"
+LOCAL4="Sparky Conky-hanteraren"
+LOCAL5="Sparky Conky-hanterarens inställningar.\n\nVänligen gör ett val:"
+LOCAL6="Starta Conky"
+LOCAL7="Stoppa Conky"
+LOCAL8="Redigera konfigurationsfil för Sparky Conky"
+LOCAL9="Ändra Sparky Conky-färger"
+LOCAL10="Ändra Sparkys Conky-färger.\n\nVälj en ny standardfärg:"
+LOCAL11="Svart"
+LOCAL12="Blå"
+LOCAL13="Grå"
+LOCAL14="Grön"
+LOCAL15="Röd"
+LOCAL16="Gul"
+LOCAL17="Vit"
+LOCAL18="Tillbaka till huvudmenyn"
+### .desktop file to be translated too
+# Name[sv_SE]=Conky-hanteraren
+# Comment[sv_SE]=Starta, stoppa eller redigera Sparky Conky

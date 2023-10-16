@@ -1,0 +1,27 @@
+# Indonesian localization file for Sparky Conky.
+# Copyright 2015 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/27
+# Under the GNU GPL v2
+# Last update 2018/08/05 by pavroo
+# Translated to Indonesian by les kompie
+LOCAL1="Nama"
+LOCAL2="Deskripsi"
+LOCAL3="Keluar"
+LOCAL4="Manajer Conky Sparky"
+LOCAL5="Pengaturan manajer Conky Sparky. \n\Pilih salah satu:"
+LOCAL6="Mulai Conky"
+LOCAL7="Hentikan Conky"
+LOCAL8="Edit file konfigurasi Conky Sparky"
+LOCAL9="Ubah warna Conky Sparky"
+LOCAL10="Ubah warna Conky Sparky. \n\nPilih warna default baru:"
+LOCAL11="Hitam"
+LOCAL12="Biru"
+LOCAL13="Abu-abu"
+LOCAL14="Hijau"
+LOCAL15="Merah"
+LOCAL16="Kuning"
+LOCAL17="Putih"
+LOCAL18="Kembali ke menu utama"
+### .desktop file to be translated too
+# Name[id_ID]=Manajer Conky
+# Comment[id_ID]=Luncurkan, hentikan atau edit Conky Sparky
+

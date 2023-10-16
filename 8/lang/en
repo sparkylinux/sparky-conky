@@ -1,0 +1,25 @@
+# English localization file for Sparky Conky.
+# Copyright 2015 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/27
+# Under the GNU GPL v2
+# Last update 2018/08/05 by pavroo
+LOCAL1="Name"
+LOCAL2="Description"
+LOCAL3="Exit"
+LOCAL4="Sparky Conky Manager"
+LOCAL5="Sparky Conky manager settings. \n\Please select an option:"
+LOCAL6="Start Conky"
+LOCAL7="Stop Conky"
+LOCAL8="Edit Sparky Conky configuration file"
+LOCAL9="Change Sparky Conky color"
+LOCAL10="Change Sparky's Conky color.\n\nChoose a new, default color:"
+LOCAL11="Black"
+LOCAL12="Blue"
+LOCAL13="Gray"
+LOCAL14="Green"
+LOCAL15="Red"
+LOCAL16="Yellow"
+LOCAL17="White"
+LOCAL18="Back to the main menu"
+### .desktop file to be translated too
+# Name[en_US]=Conky Manager
+# Comment[en_US]=Launch, stop or edit Sparky Conky

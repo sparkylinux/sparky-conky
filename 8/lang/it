@@ -1,0 +1,26 @@
+# File di localizzazione in itlaiano per Sparky Conky
+# Copyright 2015 Carlo‚ "malato" Troiani <abbassolafrangetta@gmail.com> 27/10/2015
+# Rilasciato sotto licenza GNU GPL v2
+# Ultimo aggiornamento 2022/05/18 by Yodel Sinatra <mastodon.uno/@YodelSinatra>
+# Last update 2018/08/05 by pavroo
+LOCAL1="Nome"
+LOCAL2="Descrizione"
+LOCAL3="Esci"
+LOCAL4="Sparky Gestore Conky "
+LOCAL5="Gestore delle impostazioni di Sparky Conky. \n\Per favore, seleziona un'opzione:"
+LOCAL6="Avvia Conky"
+LOCAL7="Ferma Conky"
+LOCAL8="Modifica il file di configurazione di Sparky Conky"
+LOCAL9="Cambia il colore di Sparky Conky"
+LOCAL10="Cambia il colore di Sparky Conky.\n\nScegli un nuovo colore di default:"
+LOCAL11="Nero"
+LOCAL12="Blu"
+LOCAL13="Grigio"
+LOCAL14="Verde"
+LOCAL15="Rosso"
+LOCAL16="Giallo"
+LOCAL17="Bianco"
+LOCAL18="Torna al menu principale"
+### .desktop file to be translated too
+# Name[it_IT]=Gestore Conky 
+# Comment[it_IT]=Lancia, ferma o modifica Sparky Conky
