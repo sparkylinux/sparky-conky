@@ -24,7 +24,7 @@ if [ "$1" = "uninstall" ]; then
 	rm -rf /opt/conky/yuvan/yuvan.conf
 	rm -f /opt/conky/week.sh
 	rm -f /usr/bin/sparky-conky
-	rm -f /usr/lib/sparkycenter/look/sparky-conky.desktop
+	#rm -f /usr/lib/sparkycenter/look/sparky-conky.desktop
 	rm -f /usr/share/applications/sparky-conky.desktop
 	rm -f /usr/share/menu/sparky-conky
 	rm -rf /usr/share/sparky/sparky-conky
@@ -41,10 +41,10 @@ else
 	fi
 	cp opt/* /opt/conky/
 	cp bin/* /usr/bin/
-	if [ ! -d /usr/lib/sparkycenter/look ]; then
-		mkdir -p /usr/lib/sparkycenter/look
-	fi
-	cp share/sparky-conky.desktop /usr/lib/sparkycenter/look/
+	#if [ ! -d /usr/lib/sparkycenter/look ]; then
+	#	mkdir -p /usr/lib/sparkycenter/look
+	#fi
+	#cp share/sparky-conky.desktop /usr/lib/sparkycenter/look/
 	cp share/sparky-conky.desktop /usr/share/applications/
 	cp share/sparky-conky /usr/share/menu/
 	if [ ! -d /usr/share/sparky/sparky-conky ]; then

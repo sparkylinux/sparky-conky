@@ -1,0 +1,27 @@
+# Suomenkielinen lokalisointitiedosto Sparky Conkylle.
+# Tekijänoikeus 2015 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 27.10.2015
+# GNU GPL v2:n alla
+# Viimeisin päivitys 2018/08/05 by pavroo
+LOCAL1="Nimi"
+LOCAL2="Kuvaus"
+LOCAL3="Poistu"
+LOCAL4="Sparky Conky Manager"
+LOCAL5="Sparky Conky managerin asetukset. \n\Valitse vaihtoehto:"
+LOCAL6="Käynnistä Conky"
+LOCAL7="Lopeta Conky"
+LOCAL8="Muokkaa Sparky Conky -asetustiedostoa"
+LOCAL9="Vaihda Sparky Conky -väri"
+LOCAL10="Muuta Sparkyn Conky-väriä.\n\nValitse uusi oletusväri:"
+LOCAL11="Musta"
+LOCAL12="Sininen"
+LOCAL13="Harmaa"
+LOCAL14="Vihreä"
+LOCAL15="Punainen"
+LOCAL16="Keltainen"
+LOCAL17="Valkoinen"
+LOCAL18="Takaisin päävalikkoon"
+### .desktop-tiedosto käännettävä myös
+# Name[en_US]=Conky Manager
+# Nimi[fi_FI]=Conky Manager
+# Comment[fi]=Käynnistä, pysäytä tai muokkaa Sparky Conkya
+# Kommentti[fi]=Käynnistä, pysäytä tai muokkaa Sparky Conkya
