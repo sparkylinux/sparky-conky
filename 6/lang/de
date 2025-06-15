@@ -2,13 +2,13 @@
 # Copyright 2015 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/27
 # Under the GNU GPL v2
 # Last update 2018/08/05 by pavroo
-# draft translate -michael<thenumbersguy@o2online.de>2019/12 (aktulaisiert 27.05.2025)
+# draft translate -michael<thenumbersguy@o2online.de>2019/12 (aktualisiert 05.06.2025)
 LOCAL1="Name"
 LOCAL2="Beschreibung"
 LOCAL3="Beenden"
 LOCAL4="Sparky Conky Manager"
-LOCAL5="Sparky Conky Manager-Einstellungen. \n\Bitte wählen Sie eine Option aus:"
-LOCAL6="Conky starten"
+LOCAL5="Einstellungen für Sparky Conky Manager. \n\Bitte wählen Sie eine Option aus:"
+LOCAL6="Conky starten mit:"
 LOCAL7="Conky stoppen"
 LOCAL8="Sparky Conky-Konfigurationsdatei bearbeiten"
 LOCAL9="Sparky Conky-Farbe ändern"
